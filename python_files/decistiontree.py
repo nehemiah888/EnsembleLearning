@@ -38,7 +38,7 @@ class EmployeeTurnoverPredictor:
     A class to predict employee turnover using Decision Trees and Random Forest.
     """
     
-    def __init__(self, data_file='HR_comma_sep.csv'):
+    def __init__(self, data_file='../HR_comma_sep.csv'):
         """Initialize the predictor with data file."""
         self.data_file = data_file
         self.df = None
